@@ -716,7 +716,6 @@ main {
 }
 .coldEat .coldEat-slider .coldEat-slider-items .slick-slide {
   display: flex;
-  justify-content: center;
   margin: 0 10px;
 }
 .coldEat .coldEat-slider .coldEat-slider-items .slick-dots {
