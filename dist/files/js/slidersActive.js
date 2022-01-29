@@ -25,5 +25,8 @@ $(document).ready(function(){
         slidesToScroll: 1,
         speed: 1000,
         touchThreshold: 10,
+        waitForAnimate: false,
+        centerMode: true,
+        variableWidth: true,
     });
 });
