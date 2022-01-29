@@ -642,6 +642,10 @@ main {
   height: 4000px;
 }
 
+* {
+  min-width: 0;
+}
+
 .blocks-container {
   padding: 51px 0px 50px 0px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -706,7 +710,6 @@ main {
 }
 .coldEat .coldEat-slider .coldEat-slider-items .slick-list {
   overflow: hidden;
-  width: 98vw;
 }
 .coldEat .coldEat-slider .coldEat-slider-items .slick-track {
   display: flex;
