@@ -1,111 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../css/style.min.css">
-    <script src="js/app.min.js"></script>
-    <title>PAGE 2</title>
-</head>
+    @@include('../../html/head.html', {
+        "title": "PAGE 2",
+    })
 <body>
-    <header>
-    <div class="wrapper-header">
-        <div class="header">
-            <div class="header__container">
-                <div class="header__logo">
-                    <a href="../../index.html">LOGO</a>
-                </div>
-                <div class="header__search">
-                    <div class="header__search_location">
-                        <div class="header__search-location_ico">
-                            <img src="../../img/Location.png" alt="location">
-                        </div>
-                        <input type="text" class="header__search-location_text" placeholder="Введите адрес доставки">
-                    </div>
-                    <div class="header__search_search-ico">
-                        <img src="../../img/Search.png" alt="search">
-                    </div>
-                </div>
-                <div class="burger-menu">
-                    <span class="burger-button"></span><span class="burger-text">МЕНЮ</span>
-                </div>
-                <div class="header__contacts">
-                    <div class="header__contacts_phone">
-                        <img src="../../img/Calling.png" alt="">
-                    </div>
-                    <div class="header__contacts_text">
-                        <div class="header__contacts-text_title">Контакты:</div>
-                        <div class="header__contacts-text_number">+7 (917) 510-57-59</div>
-                    </div>
-                </div>
-                <div class="header__basket">
-                    <div class="header__basket-container">
-                        <div class="header__basket_name">Корзина</div>
-                        <div class="header__basket_number">4</div>
-                    </div>
-                </div>
-                <div class="header__top_image">
-                    <div class="header__top_image-title">
-                        <div class="header__top_image-title-main">
-                            Доставка ВКУСНЕЙШИХ БЛЮд за 60 минут
-                            <p>Доставка ВКУСНЕЙШИХ БЛЮд за 60 минут</p>
-                            </div>
-                        <div class="header__top_image-title-sub">Ещё не пробовал?</div>
-                    </div>
-                    <div class="header__top_image-blank"></div>
-                </div>
-                <div class="header__menu fixed-div menu-slider">
-                    
-                    <div class="slider menu-slider" id="menu-slider">
-                        <div class="slider__container">
-                            <div class="slider__wrapper ">
-                                <div class="slider__items ">
-                                    <div class="slider__item menu-slider">
-                                        <a href="#footer">Холодные закуск</a>
-                                    </div>
-                                    <div class="slider__item menu-slider">
-                                        <a href="#">Горячие закуски</a>
-                                    </div>
-                                    <div class="slider__item menu-slider">
-                                        <a href="#">Мясные блюда</a>
-                                    </div>
-                                    <div class="slider__item menu-slider">
-                                        <a href="#">Супы</a>
-                                    </div>
-                                    <div class="slider__item menu-slider">
-                                        <a href="#">Рыбные блюда</a>
-                                    </div>
-                                    <div class="slider__item menu-slider">
-                                        <a href="#">Гриль меню</a>
-                                    </div>
-                                    <div class="slider__item menu-slider">
-                                        <a href="#">Фирменные блюда</a>
-                                    </div>
-                                    <div class="slider__item menu-slider">
-                                        <a href="#">Напитки</a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#" class="slider__control" data-slide="prev"></a>
-                        <a href="#" class="slider__control" data-slide="next"></a>
-                    </div>
-                </div>
-            </div>
-
-
-
-        </div>
-    </div>
-</header>
+    @@include('../../html/header.html', {})
     <div><a href="page1.html">PAGE № 1</a></div>
     <div><a href="../../index.html">INDEX HTML</a></div>
     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam amet vel suscipit veritatis quae ab nobis numquam repellat reprehenderit porro, recusandae voluptatem, optio voluptate debitis, soluta tempore nisi delectus nam.
 
-    
-    <footer>footer footer footer</footer>
+    <!-- @@include('html/contacts.html', {}) -->
+    @@include('../../html/footer.html', {})
     <script src="js/app.min.js"></script>
 </body>
 </html>

@@ -1,9 +1,9 @@
-document.addEventListener('DOMContentLoaded', function () {
-    new ChiefSlider("#menu-slider", {
-    loop: false,
-    swipe: true
-    });
-});
+// document.addEventListener('DOMContentLoaded', function () {
+//     new ChiefSlider("#menu-slider", {
+//     loop: false,
+//     swipe: true
+//     });
+// });
 // document.addEventListener('DOMContentLoaded', function () {
 //     new ChiefSlider("#coldEat", {
 //     loop: true,
@@ -27,6 +27,18 @@ $(document).ready(function(){
         touchThreshold: 10,
         waitForAnimate: false,
         centerMode: true,
+        variableWidth: true,
+    });
+    $('.menu-slider').slick({
+        arrows: false,
+        dots: false,
+        infinite: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        speed: 1000,
+        touchThreshold: 10,
+        waitForAnimate: false,
+        centerMode: false,
         variableWidth: true,
     });
 });
